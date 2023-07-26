@@ -1,0 +1,17 @@
+@media screen and (max-width: 35.5em) {
+table tbody tr td:nth-child(1):before {
+    content: "Date de Réservation";
+ }
+table tbody tr td:nth-child(2):before {
+    content: "Ville départ";
+ }
+table tbody tr td:nth-child(3):before {
+    content: "Ville arrivée";
+ }
+table tbody tr td:nth-child(4):before {
+    content: "Durée";
+ }
+table tbody tr td:nth-child(5):before {
+    content: "Trajet";
+ }
+}

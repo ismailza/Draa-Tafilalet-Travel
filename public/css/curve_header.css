@@ -1,0 +1,52 @@
+.curve_header{
+    margin-top: 68px;
+    margin-bottom: 20px;
+}
+.curve {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.curve h1 {
+    margin-top: 5px;
+    font-size: 60px;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFEE58;
+    text-transform: capitalize;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.curve h2 {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+	font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.curve::before {
+    content: '';
+    display: block;
+    /* background-color: #F26B1D; */
+    background-color: #363940;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 140vw;
+    width: 300vw;
+    height: 300vw;
+    z-index: -1;
+}
+@media screen and (max-width: 768px){
+    .curve {
+        padding: 10px;
+    }
+    .curve h1 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .curve h2 {
+        font-size: 12px;
+    }
+}

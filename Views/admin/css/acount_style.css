@@ -1,0 +1,47 @@
+.admin_account {
+	padding: 20px;
+	min-height: 100%;
+}
+.info_admin {
+	width: 400px;
+	margin: 120px auto 20px;
+	background-color: #fff;
+	padding: 0 20px 20px;
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+.avatar-flip {
+	border-radius: 100px;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	margin: auto;
+	top: -60px;
+}
+.avatar-flip img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 100px;
+}
+.info_admin h2 {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: #333;
+}
+.info_admin h4 {
+	font-size: 13px;
+	color: #00baff;
+	letter-spacing: 1px;
+	margin-bottom: 25px
+}
+.info_admin p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	color: #666;
+	font-family: Roboto;
+}

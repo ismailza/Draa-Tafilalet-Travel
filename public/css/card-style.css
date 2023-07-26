@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&family=Orelega+One&family=Updock&display=swap');
+.cards_title {
+	width: 100%;
+	margin: 0;
+	padding: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	align-items: center;
+}
+.cards_title h2 {
+	text-transform: capitalize;
+	color: #FF9800;
+	font-size: 55px;
+	font-family: 'Kaushan Script', cursive;
+}
+.cards_title a {
+    color: #009688;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+.card {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    background: #fff;
+    padding: 0;
+    box-shadow: 3px 3px 20px rgb(16, 16, 16);
+}
+.medium-card {
+    height: 360px;
+}
+.large-card {
+    height: 396px;
+}
+.card:hover {
+    box-shadow: 0px 30px 30px rgba(0,0,0,0.5);
+}
+.card .img-box {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 220px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card .img-box img{
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px;
+    height: 220px;
+}
+.card .box-content {
+    margin: 0;
+    padding: 0;
+}
+.card .box-content h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #009688;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+.card .box-content h6 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #00BCD4;
+    font-size: 20px;
+    /* font-family: 'Kaushan Script', cursive; */
+}
+.card .box-content .short-desc {
+    text-align: center;
+    font-size: 16px;
+}
+.card .box-content p {
+    text-align: center;
+    color: darkslateblue;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-top, .btn-bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.btn-top {
+    border-top: 1px solid rgb(94, 90, 90);
+}
+.btn-bottom {
+    margin-bottom: 0;
+}
+.btn-bottom button{
+    background-color: #FF9800;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}

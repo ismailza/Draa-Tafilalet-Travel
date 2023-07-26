@@ -1,0 +1,11 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+# Remove .php extension from the url
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Remove views/ folder from the url
+
+
+# Error 404
+ErrorDocument 404 http://localhost/Draa-Tafilalet-Travel/Views/404.html

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Koulen&family=Lily+Script+One&family=Lobster&family=Nanum+Myeongjo:wght@400;700&family=Oleo+Script&family=Orelega+One&family=Roboto:ital,wght@0,300;1,300&family=Smooch&family=Style+Script&family=Updock&display=swap');
+.overlay h1 {
+	color: #00baff;
+	text-shadow: 1px 1px 2px #000000;
+}
+.overlay h2 {
+	color: rgb(25, 171, 115);
+	font-family: 'Koulen', cursive;
+	font-style: italic;
+	font-size: 45px;
+	text-shadow: 1px 2px 2px #000000;
+	letter-spacing: 2px;
+}
+.overlay h3 {
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Style Script', cursive;
+	font-size: 36px;
+	font-weight: 700;
+	text-shadow: 1px 2px 0 rgb(0, 0, 0);
+
+}
+.content-container .content-column, .post-related{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #ff9027;
+	border-top: 5px solid #ff9027;
+	background-color: #fff;
+}
+.aside {
+	background-color: #fff;
+
+}
+.mini-actu-box {
+	display: grid;
+	grid-template-columns: calc(100% - 120px) 120px;
+
+}
+aside.sidebar {
+	background-color: #fff;
+	margin: 10px 5px;
+	box-shadow: 2px 2px 0px #000000;
+	border: 1px solid #000000;
+	padding-left: 10px;
+}
+.slider img {
+	width: 100%;
+	max-height: 500px;
+}
+.reviews {
+	display: block;
+	border: 1px solid #00baff;
+	line-height: 25px;
+	padding: 15px;
+}
+.description {
+	/* max-width: 800px; */
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.description p {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size: 18px;
+}
+.carte {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: grid;
+	place-items: center;
+}
+.mapmarker {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: xx-large;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.cards_title {
+	padding: 10px;
+}
+.cards_title h2 {
+	text-align: center;
+	font-size: 35px;
+	color: #000000;
+}
+.span-color{
+	color: #ff9027;
+	border-bottom: 2px ridge #00baff;
+}
+.box-actu {
+	width: 100%;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	padding: 10px 5px 10px 5px;
+	box-shadow: 2px 2px 2px #000000;
+	background-color: #fff;
+}
+@media only screen and (max-width: 768px){
+	.slider img {
+		width: 100%;
+		max-height: 360px;
+	}
+	.cards_title h2 {
+		font-size: 32px;
+	}
+}
+/* === Client account === */
+.client_account {
+	margin-top: 68px;
+	padding: 20px;
+	min-height: 100%;
+}
+.info_client {
+	width: 400px;
+	margin: 120px auto 20px;
+	background-color: #fff;
+	padding: 0 20px 20px;
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+.avatar-flip {
+	border-radius: 100px;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	margin: auto;
+	top: -60px;
+}
+.avatar-flip img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 100px;
+}
+.info_client h2 {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: #333;
+}
+.info_client h4 {
+	font-size: 13px;
+	color: #00baff;
+	letter-spacing: 1px;
+	margin-bottom: 25px
+}
+.info_client p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	color: #666;
+	font-family: Roboto;
+}
+/* === table reservations client */
+.titre {
+	margin-top: 60px;
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+	margin-bottom: 40px;
+  }
+  .titre::before{
+	content: "";
+	position: absolute;
+	left: 2px;
+	bottom: 0;
+	height: 3px;
+	width: 60px;
+	border-radius: 5px;
+	background: linear-gradient(135deg, #efef38, #ff9027);
+}
+table {
+	border-spacing: 1;
+	border-collapse: separate;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+table * {
+	position: relative;
+}
+table td, table th {
+	padding: 12px;
+}
+table thead tr {
+	height: 60px;
+	background: #00baff;
+	font-size: 16px;
+	color: white;
+}
+table tbody tr {
+	height: 48px;
+	border-bottom: 1px solid #e3f1d5;
+}
+table tbody tr:last-child {
+	border: 0;
+}
+table td, table th {
+	text-align: left;
+}
+table td.l, table th.l {
+	text-align: right;
+}
+table td.c, table th.c {
+	text-align: center;
+}
+table td.r, table th.r {
+	text-align: center;
+}
+table tbody tr:nth-child(even) {
+	background-color: #e4e1ec;
+}	
+table tbody tr:hover {
+	background-color: rgb(230, 228, 228);
+}	
+@media screen and (max-width: 35.5em) {
+	table {
+		display: block;
+	 }
+	table > *, table tr, table td, table th {
+		display: block;
+	 }
+	table thead {
+		display: none;
+	 }
+	table tbody tr {
+		height: auto;
+		padding: 8px 0;
+	 }
+	table tbody tr td {
+		padding-left: 45%;
+		margin-bottom: 12px;
+	 }
+	table tbody tr td:last-child {
+		margin-bottom: 0;
+	 }
+	table tbody tr td:before {
+		position: absolute;
+		font-weight: 700;
+		width: 40%;
+		left: 10px;
+		top: 0;
+	 }
+	
+}
